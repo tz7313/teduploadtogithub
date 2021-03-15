@@ -1,7 +1,10 @@
 package com.tz.uploadtogithub;
 
+import com.tz.outputstring.outputstring;
+
 public class pushtogithub {
     public static void main(String[] args){
-        System.out.println("This is a testing for push to github");
+        outputstring o = new outputstring();
+        o.GetOutPutString("This is a testing");
     }
 }
